@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BB GERÜSTBAU & PLANENSERVICE</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 500px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BB GERÜSTBAU & PLANENSERVICE</h1>
+    <p>Ihr Partner für professionellen Gerüstbau in Hamburg</p>
+  </header>
+
+  <nav>
+    <a href="#start">Startseite</a>
+    <a href="#ueber-uns">Über uns</a>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="start">
+    <h2>Willkommen</h2>
+    <p>BB GERÜSTBAU & PLANENSERVICE steht für zuverlässige und sichere Gerüstlösungen in Hamburg und Umgebung. Wir bieten Ihnen individuelle Gerüstsysteme für Bau, Sanierung oder Spezialprojekte.</p>
+  </section>
+
+  <section id="ueber-uns">
+    <h2>Über uns</h2>
+    <p>Mit langjähriger Erfahrung im Gerüstbau und einem motivierten Team setzen wir Ihre Projekte termingerecht und sicher um. Unser Anspruch ist höchste Qualität, Sicherheit und Kundenzufriedenheit.</p>
+  </section>
+
+  <section id="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <ul>
+      <li>Fassadengerüste</li>
+      <li>Rollgerüste</li>
+      <li>Schutz- und Wetterschutzplanen</li>
+      <li>Sonderkonstruktionen</li>
+      <li>Montage & Demontage</li>
+    </ul>
+  </section>
+
+  <section id="galerie">
+    <h2>Galerie</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200" alt="Gerüst Beispiel 1">
+      <img src="https://via.placeholder.com/300x200" alt="Gerüst Beispiel 2">
+      <img src="https://via.placeholder.com/300x200" alt="Gerüst Beispiel 3">
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Sie haben Fragen oder möchten ein Angebot? Kontaktieren Sie uns!</p>
+    <form action="mailto:info@bb-geruestbau.de" method="post" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Ihr Name" required>
+      <input type="email" name="Email" placeholder="Ihre E-Mail" required>
+      <textarea name="Nachricht" rows="5" placeholder="Ihre Nachricht" required></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BB GERÜSTBAU & PLANENSERVICE – Alle Rechte vorbehalten</p>
+  </footer>
+</body>
+</html>
