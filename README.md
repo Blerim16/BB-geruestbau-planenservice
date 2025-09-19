@@ -1,2 +1,0 @@
-# BB-geruestbau-planenservice
-Unternehmen
